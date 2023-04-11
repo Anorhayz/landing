@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing</title>
     <link rel="shortcut icon" href="img/mini-logo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/cart.css"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,42 +31,27 @@
         <button type="button">Try For Free</button>
     </header>
     <main>
-        <div class="cart-container">
-            <div class="cart-header">
-                <h3 class="cart-heading">Shopping cart</h3>
-                <h5 class="cart-remove">Remove all</h5>
-            </div>
-            <div class="cart-items">
-                <div class="image-box">
-                    <img src="/img/wine-cart.png" alt="wine">
-                </div>
-                <div class="cart-about">
-                    <h1 class="cart-title">Product name</h1>
-                    <h3 class="cart-subtitle">250ml</h3>
-                </div>
-                <div class="item-counter">
-                    <div class="item-plus">+</div>
-                    <div class="item-count">1</div>
-                    <div class="item-plus">-</div>
-                </div>
-                <div class="item-prices">
-                    <div class="item-amount">6.18$</div>
-                    <div class="item-save"><u>Save for later</u></div>
-                    <div class="item-remove"><u>Remove</u></div>
-                </div>
-                <hr>
-                <div class="cart-checkout">
-                    <div class="cart-total">
-                    <div>
-                    <div class="cart-subtotal">Sub-Total</div>
-                    <div class="cart-items">1 items</div>
+        <div class="container-cart">
+            <h2>Shopping cart</h2>
+            <div class="container-cart__cart-class">
+                <div class="container-cart__cart-products">
+                    <div class="container-cart__cart-product">
+                        <img src="img/another-laptop.png" alt="laptop">
+                        <div class="container-cart__product-info">
+                            <h3 class="container-cart__product-name">Laptop</h3>
+                            <h2 class="container-cart__product-price">$6.18</h2>
+                            <p class="container-cart__product-amount">Amount: <input value="1"></p>
+                            <p class="container-cart__product-remove">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <span class="container-cart__button-remove">Remove</span>
+                            </p>
+                        </div>
                     </div>
-                    <div class="cart-amount">$6.18</div>
-                    </div>
-                    <button class="pay-button">Checkout</button>
                 </div>
+                <div class="container-cart__cart-total"></div>
             </div>
         </div>
+
         <img src="img/laptop.png" alt="laptop">
         <div>
             <h2 id="features">Features</h2>
