@@ -1,0 +1,46 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__rental-container {
+    width: 600px;
+    color: #f4f4f4;
+    background-color: #272727;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.info__rental-offer {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.info__tours-container {
+    width: 600px;
+    color: #f4f4f4;
+    background-color: #222222;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.info__tours-offer {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.info__repairs-container {
+    width: 600px;
+    color: #f4f4f4;
+    background-color: #272727;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.info__repairs-offer {
+    font-size: xx-large;
+    text-align: center;
+}

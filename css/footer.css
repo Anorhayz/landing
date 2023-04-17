@@ -1,0 +1,33 @@
+.footer__lists {
+    display: grid;
+    grid-template-columns: 15% 10% 10% 10% 10% 10% 10%;
+}
+
+.footer__first-list {
+    grid-column-start: 4;
+}
+
+.footer__second-list {
+    grid-column-start: 5;
+}
+
+.footer__third-list {
+    grid-column-start: 6;
+    border-color: red;
+}
+
+.footer__first-list ul {
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.footer__second-list ul {
+    margin-left: 100px;
+    list-style-type: none;
+}
+
+.footer__third-list ul {
+    margin-left: 150px;
+    list-style-type: none;
+}
+

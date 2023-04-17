@@ -1,0 +1,85 @@
+.header__social-media {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 20% 15% 20% 15% 20% 10%;
+    color: white;
+    background-color: #ff8a43;
+}
+.header__phone-number {
+    grid-column-start: 1;
+    margin-left: 120px;
+    font-size: large;
+}
+.header__social-icons {
+    grid-column-start: 6;
+}
+.fa {
+    margin-left: 15px;
+    color: white;
+}
+
+.header__navigation-bar {
+    display: grid;
+    grid-template-columns: 15% 5% 10% 10% 10% 10% 10% 10% 10%;   
+}
+.header__title-p {
+    color: #f4f4f4;
+    font-size: xx-large;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+
+.header__navigation-bar a {
+    color: #f4f4f4;
+}
+.header__menu-bikes {
+    padding-top: 30px;
+    grid-column-start: 3;
+    padding-left: 745px;
+}
+.header__menu-price {
+    padding-top: 30px;
+    grid-column-start: 4;
+    padding-left: 665px;
+}
+.header__menu-tours {
+    padding-top: 30px;
+    grid-column-start: 5;
+    padding-left: 575px;
+}
+.header__menu-about {
+    padding-top: 30px;
+    grid-column-start: 6;
+    padding-left: 485px;
+}
+.header__menu-repairs {
+    padding-top: 30px;
+    grid-column-start: 7;
+    padding-left: 415px;
+}
+.header__menu-contacts {
+    padding-top: 30px;
+    grid-column-start: 8;
+    padding-left: 350px;
+}
+
+
+.header__center-text {
+    text-align: center;
+}
+.header__phrase {
+    font-size: 500%;
+    word-break: break-all;
+    color: #f4f4f4;
+}
+.header__phrase-nocolor {
+    color: #b5b5b5;
+}
+.header__color-phrase {
+    color: #ff8a43;
+}
+.header__color-mark {
+    color: #f4f4f4;
+}
