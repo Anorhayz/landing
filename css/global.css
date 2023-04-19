@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body {
+    background-image: url(../img/bike-background.png);
+    background-repeat: no-repeat, repeat;
+  }
